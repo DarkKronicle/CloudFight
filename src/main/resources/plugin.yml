@@ -1,0 +1,25 @@
+name: CloudFight
+version: ${project.version}
+main: darkkronicle.github.io.cloudfight.CloudFight
+api-version: 1.13
+commands:
+  cloudfight:
+    description: 'Main command'
+    aliases:
+      - cf
+  join:
+    description: 'Join a game'
+  leave:
+    description: 'Leave a game'
+  map:
+    description: 'Map commands'
+  spectate:
+    description: 'Spectate a game'
+  teammsg:
+    description: 'Message your team'
+  mode:
+    description: 'Set mode'
+  modevote:
+    description: 'Vote for mode!'
+depend:
+  - StructureBlockLib
